@@ -13,12 +13,11 @@
 </header>
 
 <body>
-    <h1>Results</h1>
     <div class="results">
         {%if prediction%}
-        <h2 style="color:red;">Looks like a(n) {{ prediction }} ! </h2>
+        <h1> {{ prediction }} </h1>
         {%else%}
-         <h2 style="color:red;">Nothing to predict ! </h2>
+         <h1>Nothing to predict ! </h1>
         {%endif%}
     </div>
 </body>

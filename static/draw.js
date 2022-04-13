@@ -54,7 +54,7 @@ function redraw() {
     context.clearRect(0, 0, context.canvas.width, context.canvas.height); // Clears the canvas
     context.strokeStyle = curColor;
     context.lineJoin = "round";
-    context.lineWidth = 3;
+    context.lineWidth = 20;
 for (var i = 0; i < clickX.length; i++) {
     context.beginPath();
     if (clickDrag[i] && i) {
